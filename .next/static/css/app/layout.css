@@ -862,6 +862,10 @@ video {
 .z-50 {
   z-index: 50;
 }
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
 .mx-8 {
   margin-left: 2rem;
   margin-right: 2rem;
@@ -873,10 +877,6 @@ video {
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
-}
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
 }
 .mb-1 {
   margin-bottom: 0.25rem;
@@ -911,6 +911,9 @@ video {
 .ml-4 {
   margin-left: 1rem;
 }
+.mt-0 {
+  margin-top: 0px;
+}
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -934,9 +937,6 @@ video {
 }
 .mt-6 {
   margin-top: 1.5rem;
-}
-.mt-0 {
-  margin-top: 0px;
 }
 .line-clamp-2 {
   overflow: hidden;
@@ -2819,6 +2819,10 @@ video {
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .sm\:p-0 {
+    padding: 0px;
+  }
+
   .sm\:p-4 {
     padding: 1rem;
   }
@@ -2829,10 +2833,6 @@ video {
 
   .sm\:p-8 {
     padding: 2rem;
-  }
-
-  .sm\:p-0 {
-    padding: 0px;
   }
 
   .sm\:px-4 {
@@ -2905,10 +2905,6 @@ video {
 
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
-  }
-
-  .lg\:ml-64 {
-    margin-left: 16rem;
   }
 
   .lg\:block {
