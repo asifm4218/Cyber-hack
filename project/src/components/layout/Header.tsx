@@ -144,9 +144,12 @@ export default function Header() {
           <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
             <div className="flex items-center space-x-2 sm:space-x-3">
-              <div className="w-8 h-8 sm:w-12 sm:h-12 canara-gradient rounded-lg flex items-center justify-center">
-                <Building2 className="w-5 h-5 sm:w-8 sm:h-8 text-white" />
-              </div>
+              <img
+                src="/canara-logo.webp"
+                alt="Canara Bank Logo"
+                className="w-10 h-10 sm:w-14 sm:h-14 object-contain"
+                style={{ background: 'white', borderRadius: '8px' }}
+              />
               <div>
                 <h1 className="text-lg sm:text-2xl font-bold text-canara-blue-600 dark:text-canara-blue-400">Canara Bank</h1>
                 <p className="text-xs text-canara-yellow-600 dark:text-canara-yellow-500 font-medium hidden sm:block">Together We Can</p>
