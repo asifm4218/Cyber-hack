@@ -15,6 +15,10 @@ export default function DashboardHeader({ user, onLogout, onMenuToggle }: Dashbo
 
   return (
     <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 px-4 py-1">
+      <div className="flex items-center space-x-3 mb-4">
+        <img src="/canara-logo.webp" alt="Canara Bank Logo" className="w-12 h-12 object-contain" />
+        <h1 className="text-2xl font-bold text-canara-blue-600 dark:text-canara-blue-400">Canara Bank Dashboard</h1>
+      </div>
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-4">
           <button

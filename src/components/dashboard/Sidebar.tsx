@@ -49,9 +49,7 @@ export default function Sidebar({ isOpen, onClose, activeSection, onSectionChang
       `}>
         <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
-              <Shield className="w-5 h-5 text-white" />
-            </div>
+            <img src="/canara-logo.webp" alt="Canara Bank Logo" className="w-8 h-8 object-contain bg-white rounded-lg" />
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
               Canara Bank
             </h2>

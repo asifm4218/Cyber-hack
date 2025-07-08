@@ -82,13 +82,9 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
         </div>
 
         <div className="p-6">
-          <div className="text-center mb-6">
-            <div className="w-16 h-16 bg-canara-blue-100 dark:bg-canara-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Shield className="w-8 h-8 text-canara-blue-600 dark:text-canara-blue-400" />
-            </div>
-            <p className="text-gray-600 dark:text-gray-400">
-              Welcome back to Canara Bank
-            </p>
+          <div className="flex flex-col items-center mb-6">
+            <img src="/canara-logo.webp" alt="Canara Bank Logo" className="w-16 h-16 mb-2 object-contain" />
+            <h2 className="text-2xl font-bold text-canara-blue-600 dark:text-canara-blue-400">Login to Canara Bank</h2>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-4">
