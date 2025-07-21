@@ -293,7 +293,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🆘 Support
 
 For support and questions:
-- Email: support@canarabank.com
+- Email: mohammedasif4218@gmail.com
 - Documentation: [BBCA Docs](https://docs.canarabank.com/bbca)
 - Issues: [GitHub Issues](https://github.com/canarabank/bbca/issues)
 
